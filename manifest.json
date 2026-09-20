@@ -1,0 +1,16 @@
+{
+  "name": "YouTube Easy Add Free Extension",
+  "description": "You can easily get redirected to add free version of any video you want",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "main.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["*://*.youtube.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
