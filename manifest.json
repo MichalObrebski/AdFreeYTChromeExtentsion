@@ -1,7 +1,7 @@
 {
-  "name": "YouTube Easy Add Free Extension",
-  "description": "You can easily get redirected to add free version of any video you want",
-  "version": "1.0",
+  "name": "YouTube Easy Ad-Free Extension",
+  "description": "You can easily get redirected to ad-free version of any video you want",
+  "version": "1.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "main.html"
@@ -12,5 +12,6 @@
       "matches": ["*://*.youtube.com/*"],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "permissions": ["storage"]
 }
